@@ -7,7 +7,7 @@ export default function NavigationBar() {
     return (
         <div>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">Irtiza Hafiz</Navbar.Brand>
+                <Navbar.Brand>Irtiza Hafiz</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
                 <Nav className="mr-auto">
