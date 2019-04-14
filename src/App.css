@@ -1,15 +1,162 @@
-.App {
-    height: 100%;
-    line-height: 1.8;
-    margin: 1px;
+.app {
+    display: flex;
+    flex-direction: column;
+
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding: 15px;
+    width: 100%;
+    justify-content: space-between;
 }
 
-.nav-item {
-    padding: 5px;
+.logo {
+    width: 50px;
+    height: 50px;
 }
 
-.blog {
-    padding : 10px;
+.nav-container {
+    display: flex;
+}
+
+.nav-buttons {
+    background-color: whitesmoke;
+    font-size: 16px;
+    color: #B71D1D;
+    font-weight: 500px;
+    font-family: 'Roboto Regular';
+    border-color: #B71D1D;
+    border-style: solid;
+    width: 80px;
     margin: 10px;
-    align-content: center;
+
 }
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    height: 600px;
+    justify-content: center;
+    align-items: center 
+}
+.welcome-title {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Roboto Bold';
+}
+.welcome-text {
+    font-weight: 300;
+    font-family: 'Roboto Light';
+    padding: 20px;
+}
+.avatar-icon {
+    width: 90px;
+    height: 120px;
+}
+.basic-section {
+    background-color: #B71D1D;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.basic-section-title {
+    font-size: 45px;
+    font-weight: 700px;
+    font-family: 'Roboto Bold';
+    color: aliceblue;
+}
+.basic-section-text { 
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Light';
+    color: aliceblue;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    justify-content: space-between;
+}
+
+.tech-container {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    flex:1;
+    padding: 50px;
+    margin-right: 10px;
+}
+.tech-logo {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+.tech-title {
+    align-self: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.tech-subheading {
+    align-self: center;
+    color: #B71D1D;
+    font-size: 20px;
+}
+.backend-container {
+    display: flex;
+    height: 700px;
+ 
+    flex-direction: column;
+    flex:1;
+    padding: 50px;
+    margin-right: 10px;
+}
+.backend-logo {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+.backend-title {
+    align-self: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.ai-container {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    flex:1;
+    padding: 50px;
+}
+.ai-logo {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+.ai-title {
+    align-self: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.tech-list {
+    align-self: center;
+}
+
+
+
+
+
+
