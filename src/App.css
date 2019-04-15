@@ -154,6 +154,63 @@
 .tech-list {
     align-self: center;
 }
+.mailing-list-container {
+    display: flex;
+    background-color: #B71D1D;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscription-form {
+    display: flex;
+    margin-top: 100px;
+}
+.email-field {
+    padding-left: 10px;
+    margin-right: 40px;
+    font-family: 'Roboto Bold';
+    width: 200px;
+    height: 35px;
+    background-color: whitesmoke;
+    border: whitesmoke;
+    border-width: 200px;
+}
+.input-subscribe {
+    background-color: #B71D1D;
+    font-family: 'Roboto Bold';
+    font-size: 20px;
+    height: 35px;
+    color:whitesmoke;
+    border-style: solid
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 15px;
+    width: 100%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.social-logo {
+    height: 15px;
+    width: 15px;
+    margin-right: 20px;
+}
 
 
 

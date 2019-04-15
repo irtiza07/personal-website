@@ -11,7 +11,7 @@ export default function Skills() {
     const backendFrameworks = ['Express', 'Django'];
     const backendTechnologies = ['Python', 'Node JS', 'Java', 'RESTful APIs', 'Docker', 'PostgreSQL', 'MongoDB'];
 
-    const aiSummary = 'Huge interest in recent breakthroughs in Deep Learning. Worked with both predictive.';
+    const aiSummary = 'Huge interest in recent breakthroughs in Deep Learning. Worked with both predictive and classification models.';
     const aiFrameworks = ['TensorFlow', 'Pytorch & Torch'];
     const aiTechnologies = ['Scikit-Learn', 'Pandas', 'Matplotlib', 'Google Cloud ML Engine'];
 
