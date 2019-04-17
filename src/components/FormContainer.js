@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import InputEmail from './InputEmail';
+import axios from 'axios';
 
 
 export default function FormContainer() {
@@ -8,7 +9,11 @@ export default function FormContainer() {
         setEmail(e.target.value);
     };
     const onSubmission = () => {
-        console.log(email);
+        axios.post('http://localhost:5000/subscribe', {
+            email: email
+        }).then(response => console.log(response.status))
+            .catch(error => console.log(error));
+        setEmail('');
     }
     return (
         <div className="form-container">
