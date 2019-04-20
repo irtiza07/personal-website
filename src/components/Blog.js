@@ -10,7 +10,7 @@ export default function Blog() {
 
     const [posts, setPosts] = useState([]);
     useEffect(() => {
-        axios.get('http://localhost:5000/posts')
+        axios.get('http://ec2-18-217-52-23.us-east-2.compute.amazonaws.com/posts')
             .then(response => {
                 console.log(response.data);
                 setPosts(response.data);

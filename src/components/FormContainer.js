@@ -9,7 +9,7 @@ export default function FormContainer() {
         setEmail(e.target.value);
     };
     const onSubmission = () => {
-        axios.post('http://localhost:5000/subscribe', {
+        axios.post('http://ec2-18-217-52-23.us-east-2.compute.amazonaws.com/subscribe', {
             email: email
         }).then(() => setConfirmationModalOpen(true))
             .catch(error => {
@@ -20,7 +20,7 @@ export default function FormContainer() {
     }
     return (
         <div className="form-container">
-            <InputEmail email={email} onChange={onChange} onSubmission={onSubmission} confirmationModalOpen={confirmationModalOpen}></InputEmail>
+            <InputEmail email={email} onChange={onChange} onSubmission={onSubmission} confirmationModalOpen={confirmationModalOpen} setConfirmationModalOpen={setConfirmationModalOpen}></InputEmail>
         </div >
     )
 }

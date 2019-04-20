@@ -2,7 +2,7 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 
 export default function InputEmail(props) {
-    const { email, onChange, onSubmission, confirmationModalOpen } = props;
+    const { email, onChange, onSubmission, confirmationModalOpen, setConfirmationModalOpen } = props;
     const confirmationModalStyle = {
         width: '300px',
         height: '100px',

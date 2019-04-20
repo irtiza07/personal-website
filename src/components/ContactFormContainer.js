@@ -19,7 +19,7 @@ export default function ContactFormContainer() {
         if (!name || !email || !message) {
             alert("Please complete all the fields");
         } else {
-            axios.post('http://localhost:5000/contact', {
+            axios.post('http://ec2-18-217-52-23.us-east-2.compute.amazonaws.com/contact', {
                 name: name,
                 email: email,
                 message: message
@@ -37,7 +37,7 @@ export default function ContactFormContainer() {
             <ContactNameField name={name} onChange={onChangeName}></ContactNameField>
             <ContactEmailField email={email} onChange={onChangeEmail}></ContactEmailField>
             <ContactMessageField message={message} onChange={onChangeMessage}></ContactMessageField>
-            <ContactFormSubmit onSubmission={onSubmit} confirmModelOpen={confirmModelOpen} setConfirmModalOpen={setConfirmModalOpen} > </ContactFormSubmit>
+            <ContactFormSubmit onSubmission={onSubmit} confirmModelOpen={confirmModelOpen} > </ContactFormSubmit>
         </div>
     )
 }

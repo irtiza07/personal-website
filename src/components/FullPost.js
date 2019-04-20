@@ -8,7 +8,7 @@ export default function FullPost(props) {
     const { id } = props.match.params;
     const [post, setPost] = useState({});
     useEffect(() => {
-        axios.get(`http://localhost:5000/posts/${id}`)
+        axios.get(`http://ec2-18-217-52-23.us-east-2.compute.amazonaws.com/posts/${id}`)
             .then(response => {
                 console.log(response.data);
                 setPost(response.data);
