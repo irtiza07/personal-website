@@ -1,44 +1,46 @@
 .blog-page-container {
-    display:flex;
-    background: whitesmoke;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  background: whitesmoke;
+  flex-direction: column;
+  align-items: center;
 }
 .post-container {
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    width: 600px;
-    align-items: center;
-    font-family: 'Roboto Regular';
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 60%;
+  padding: 5px;
+  align-items: center;
+  font-family: "Roboto Regular";
 }
 .post-title {
-    margin: 20px;
+  margin: 20px;
 }
-.post-topic, .post-time, .post-date {
-    color: #B71D1D;
-    font-style: italic;
-    font-size: 15px;
-    align-self: flex-start;
+.post-topic,
+.post-time,
+.post-date {
+  color: #b71d1d;
+  font-style: italic;
+  font-size: 15px;
+  align-self: flex-start;
 }
 .post-summary {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 .read-more-button {
-    background-color: whitesmoke;
-    font-size: 16px;
-    color: #B71D1D;
-    font-weight: 500px;
-    font-family: 'Roboto Regular';
-    border-color: #B71D1D;
-    border-style: solid;
-    width: 100px;
-    margin-bottom: 20px;
+  background-color: whitesmoke;
+  font-size: 16px;
+  color: #b71d1d;
+  font-weight: 500px;
+  font-family: "Roboto Regular";
+  border-color: #b71d1d;
+  border-style: solid;
+  width: 100px;
+  margin-bottom: 20px;
 }
 .full-post-container {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
