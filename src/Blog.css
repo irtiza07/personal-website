@@ -15,17 +15,19 @@
 }
 .post-title {
   margin: 20px;
+  font-family: "Ubuntu";
 }
 .post-topic,
 .post-time,
 .post-date {
   color: #b71d1d;
-  font-style: italic;
   font-size: 15px;
   align-self: flex-start;
+  font-family: "Ubuntu";
 }
 .post-summary {
   align-self: flex-start;
+  font-family: "Ubuntu";
 }
 .read-more-button {
   background-color: whitesmoke;
