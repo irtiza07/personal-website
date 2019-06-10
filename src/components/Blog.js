@@ -7,7 +7,7 @@ import axios from "axios";
 
 export default function Blog() {
   const content =
-    "From software development tutorials to good software engineering practices to software architecture to fitness and lifestyle for software engineers, I cover quite a few different topics in my blog. One of the main purpose of the blog is to track my progress as a software engineer as I learn new skills and improve my coding skills. Not only do I track my technical skills in this blog, but I also talk about my personal growth as a software engineer. Hopefully, someone who goes through the posts will find something to relate to and take away a couple of important things having spent some time here.";
+    "From software development tutorials to good software engineering practices to software architecture to fitness and lifestyle for software engineers, I cover quite a few different topics in my blog. One of the main purpose of the blog is to track my progress as a software engineer as I learn new skills and improve my coding skills. Not only do I track my technical skills in this blog, but I also talk about my personal growth as a software engineer.";
 
   const [posts, setPosts] = useState([]);
   const fetchArticles = () => {

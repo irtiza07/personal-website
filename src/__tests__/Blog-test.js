@@ -36,9 +36,7 @@ describe("Blog test suite", () => {
     const promise = Promise.resolve(postsFetched);
     sinon
       .stub(axios, "get")
-      .withArgs(
-        "http://ec2-18-217-52-23.us-eadfdst-2.compute.amazonaws.com/posts"
-      )
+      .withArgs("http://ec2-18-217-52-23.us-east-2.compute.amazonaws.com/posts")
       .returns(promise);
 
     promise
